@@ -13,3 +13,6 @@
 [submodule "packages/app-version"]
 	path = packages/app-version
 	url = git@github.com:ocopjs/app-version.git
+[submodule "packages/adapter-mongoose"]
+	path = packages/adapter-mongoose
+	url = git@github.com:ocopjs/adapter-mongoose.git
