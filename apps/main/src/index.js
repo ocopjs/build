@@ -1,1 +1,5 @@
-const Ocop = require("@ocopjs/ocop");
+const { ocop } = require("./ocop");
+
+module.exports = {
+  ocop,
+};

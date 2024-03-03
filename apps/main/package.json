@@ -1,10 +1,14 @@
 {
-  "name": "main",
-  "version": "1.0.0",
-  "main": "src/index.js",
+  "name": "app-main",
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "ocop dev --entry=src"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@ocopjs/access-control": "^1.0.0",
+    "@ocopjs/app-version": "^1.0.0",
+    "@ocopjs/common": "^1.0.3",
+    "@ocopjs/ocop": "^1.0.0",
+    "@ocopjs/utils": "^1.0.5"
+  }
 }
