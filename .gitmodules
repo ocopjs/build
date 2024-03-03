@@ -1,0 +1,15 @@
+[submodule "packages/ocop"]
+	path = packages/ocop
+	url = git@github.com:ocopjs/ocop.git
+[submodule "packages/access-control"]
+	path = packages/access-control
+	url = git@github.com:ocopjs/access-control.git
+[submodule "packages/common"]
+	path = packages/common
+	url = git@github.com:ocopjs/common.git
+[submodule "packages/utils"]
+	path = packages/utils
+	url = git@github.com:ocopjs/utils.git
+[submodule "packages/app-version"]
+	path = packages/app-version
+	url = git@github.com:ocopjs/app-version.git
