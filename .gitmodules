@@ -16,3 +16,27 @@
 [submodule "packages/adapter-mongoose"]
 	path = packages/adapter-mongoose
 	url = git@github.com:ocopjs/adapter-mongoose.git
+[submodule "packages/app-admin-ui"]
+	path = packages/app-admin-ui
+	url = git@github.com:ocopjs/app-admin-ui.git
+[submodule "packages/app-graphql"]
+	path = packages/app-graphql
+	url = git@github.com:ocopjs/app-graphql.git
+[submodule "packages/field-views-loader"]
+	path = packages/field-views-loader
+	url = git@github.com:ocopjs/field-views-loader.git
+[submodule "packages/app-graphql-playground"]
+	path = packages/app-graphql-playground
+	url = git@github.com:ocopjs/app-graphql-playground.git
+[submodule "packages/server-side-graphql-client"]
+	path = packages/server-side-graphql-client
+	url = git@github.com:ocopjs/server-side-graphql-client.git
+[submodule "packages/fields"]
+	path = packages/fields
+	url = git@github.com:ocopjs/fields.git
+[submodule "packages/fields-mongoid"]
+	path = packages/fields-mongoid
+	url = git@github.com:ocopjs/fields-mongoid.git
+[submodule "packages/react-mathjax"]
+	path = packages/react-mathjax
+	url = git@github.com:ocopjs/react-mathjax.git

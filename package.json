@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
-    "format": "prettier --write \"./apps/**/*.{ts,tsx,md,js}\""
+    "format": "prettier --write \"./**/*.{ts,tsx,md,js}\""
   },
   "keywords": [],
   "author": "",

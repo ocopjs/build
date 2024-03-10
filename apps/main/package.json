@@ -7,8 +7,11 @@
   "dependencies": {
     "@ocopjs/access-control": "^1.0.0",
     "@ocopjs/app-version": "^1.0.0",
+    "@ocopjs/app-admin-ui": "^1.0.0",
     "@ocopjs/common": "^1.0.3",
-    "@ocopjs/ocop": "^1.0.0",
-    "@ocopjs/utils": "^1.0.5"
+    "@ocopjs/ocop": "^1.0.1",
+    "@ocopjs/utils": "^1.0.5",
+    "@ocopjs/app-graphql": "1.0.0",
+    "@ocopjs/fields-mongoid": "^1.0.0"
   }
 }
