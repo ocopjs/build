@@ -40,3 +40,9 @@
 [submodule "packages/react-mathjax"]
 	path = packages/react-mathjax
 	url = git@github.com:ocopjs/react-mathjax.git
+[submodule "packages/auth-password"]
+	path = packages/auth-password
+	url = git@github.com:ocopjs/auth-password.git
+[submodule "packages/session"]
+	path = packages/session
+	url = git@github.com:ocopjs/session.git
