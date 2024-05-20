@@ -49,3 +49,6 @@
 [submodule "packages/file-adapters"]
 	path = packages/file-adapters
 	url = git@github.com:ocopjs/file-adapters.git
+[submodule "packages/fields-relationship"]
+	path = packages/fields-relationship
+	url = git@github.com:ocopjs/fields-relationship.git
