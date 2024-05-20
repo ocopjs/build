@@ -1,0 +1,21 @@
+{
+  "name": "app-file",
+  "scripts": {
+    "dev": "ocop dev --entry=src"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@ocopjs/access-control": "^1.0.0",
+    "@ocopjs/adapter-mongoose": "^1.0.1",
+    "@ocopjs/app-admin-ui": "^1.0.1",
+    "@ocopjs/app-graphql": "^1.0.1",
+    "@ocopjs/app-version": "^1.0.1",
+    "@ocopjs/auth-password": "^1.0.0",
+    "@ocopjs/common": "^1.0.3",
+    "@ocopjs/fields": "^1.0.3",
+    "@ocopjs/fields-mongoid": "^1.0.0",
+    "@ocopjs/ocop": "^1.0.2",
+    "@ocopjs/utils": "^1.0.5",
+    "@ocopjs/file-adapters": "^1.0.0"
+  }
+}

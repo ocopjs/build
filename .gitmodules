@@ -46,3 +46,6 @@
 [submodule "packages/session"]
 	path = packages/session
 	url = git@github.com:ocopjs/session.git
+[submodule "packages/file-adapters"]
+	path = packages/file-adapters
+	url = git@github.com:ocopjs/file-adapters.git

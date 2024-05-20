@@ -9,12 +9,19 @@ const {
   DateTime,
   Select,
   Virtual,
+  File,
 } = require("@ocopjs/fields");
 const { MongoId } = require("@ocopjs/fields-mongoid");
 const { PasswordAuthStrategy } = require("@ocopjs/auth-password");
+const { LocalFileAdapter } = require("@ocopjs/file-adapters");
 
 const ocop = new Ocop({
   adapter: new MongooseAdapter({ mongoUri: "mongodb://localhost/ocop" }),
+});
+
+const fileAdapter = new LocalFileAdapter({
+  src: "./files",
+  path: "/files",
 });
 
 const options = [
@@ -30,6 +37,12 @@ ocop.createList("Thing", {
     name: {
       type: Virtual,
       resolver: (item) => `${item.number} ${item.id}`,
+    },
+    file: {
+      type: File,
+      adapter: fileAdapter,
+      isRequired: true,
+      adminConfig: { host: "http://localhost:3000" },
     },
   },
 });
