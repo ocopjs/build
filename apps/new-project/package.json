@@ -1,0 +1,15 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ocop dev"
+  },
+  "dependencies": {
+    "@ocopjs/adapter-mongoose": "^1.0.2",
+    "@ocopjs/app-graphql": "^1.0.1",
+    "@ocopjs/fields": "^1.0.6",
+    "@ocopjs/ocop": "^1.0.2"
+  }
+}
