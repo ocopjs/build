@@ -1,0 +1,15 @@
+{
+  "name": "fields",
+  "scripts": {
+    "start:dev": "ocop dev --entry=src"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@ocopjs/adapter-mongoose": "^1.0.3",
+    "@ocopjs/app-graphql": "^1.0.1",
+    "@ocopjs/fields": "^1.0.8",
+    "@ocopjs/fields-mongoid": "^1.0.3",
+    "@ocopjs/file-adapters": "^1.0.0",
+    "@ocopjs/ocop": "^1.0.3"
+  }
+}
