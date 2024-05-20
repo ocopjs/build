@@ -8,6 +8,14 @@ const {
   DateTime,
   DateTimeUtc,
   Decimal,
+  Float,
+  Integer,
+  Password,
+  Select,
+  Slug,
+  Url,
+  Uuid,
+  Virtual,
 } = require("@ocopjs/fields");
 const { MongoId } = require("@ocopjs/fields-mongoid");
 
@@ -33,6 +41,31 @@ ocop.createList("Field", {
     },
     decimal: {
       type: Decimal,
+    },
+    float: { type: Float },
+    integer: { type: Integer },
+    password: {
+      type: Password,
+    },
+    select: {
+      type: Select,
+      options: [
+        { value: "one", label: "One" },
+        { value: "two", label: "Two" },
+        { value: "three", label: "Three" },
+      ],
+    },
+    slug: {
+      type: Slug,
+      from: "text",
+    },
+    url: {
+      type: Url,
+    },
+    uuid: { type: Uuid },
+    virtual: {
+      type: Virtual,
+      resolver: (item) => `${item.uuid} ${item.slug}`,
     },
   },
 });
