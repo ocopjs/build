@@ -10,7 +10,7 @@ cd tên-thư-mục
 ## Cài đặt
 
 ```
-npm install @ocopjs/access-control @ocopjs/app-version @ocopjs/common @ocopjs/ocop @ocopjs/utils
+npm install @ocopjs/adapter-mongoose@latest @ocopjs/app-graphql@latest @ocopjs/fields@latest @ocopjs/fields-mongoid@latest @ocopjs/ocop@latest @ocopjs/file-adapters@latest
 ```
 
 ## Tạo các tệp gốc
@@ -44,8 +44,6 @@ tên-thư-mục/package.json
   },
   "license": "ISC",
   "dependencies": {
-    "@ocopjs/access-control": "^1.0.0",
-    "@ocopjs/app-version": "^1.0.0",
     "@ocopjs/common": "^1.0.3",
     "@ocopjs/ocop": "^1.0.0",
     "@ocopjs/utils": "^1.0.5"

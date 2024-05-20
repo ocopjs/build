@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "turbo start:dev --filter relationships",
+    "start:dev": "turbo start:dev --filter upload-file",
     "build": "turbo build",
     "format": "prettier --write \"./apps/**/*.{ts,tsx,md,js}\""
   },
