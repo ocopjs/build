@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "turbo dev",
+    "start:dev": "turbo start:dev --filter relationships",
     "build": "turbo build",
-    "format": "prettier --write \"./**/*.{ts,tsx,md,js}\""
+    "format": "prettier --write \"./apps/**/*.{ts,tsx,md,js}\""
   },
   "keywords": [],
   "author": "",
