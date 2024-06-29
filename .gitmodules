@@ -52,3 +52,9 @@
 [submodule "packages/fields-relationship"]
 	path = packages/fields-relationship
 	url = git@github.com:ocopjs/fields-relationship.git
+[submodule "packages/app-schema-router"]
+	path = packages/app-schema-router
+	url = git@github.com:ocopjs/app-schema-router.git
+[submodule "packages/app-static"]
+	path = packages/app-static
+	url = git@github.com:ocopjs/app-static.git
