@@ -10,7 +10,7 @@
     "@ocopjs/adapter-mongoose": "^1.0.2",
     "@ocopjs/app-graphql": "^1.0.1",
     "@ocopjs/fields": "^1.0.6",
-    "@ocopjs/fields-relationship": "^1.0.1",
+    "@ocopjs/fields-relationship": "^1.0.2",
     "@ocopjs/ocop": "^1.0.2"
   }
 }

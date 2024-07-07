@@ -10,6 +10,8 @@
       "persistent": true
     },
     "start:dev": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"],
       "cache": false,
       "persistent": true
     },

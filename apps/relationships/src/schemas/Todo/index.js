@@ -8,7 +8,9 @@ module.exports = {
     name: { type: Text },
     assignee: {
       type: Relationship,
-      ref: "User",
+      ref: "User.todos",
+      many: false,
+      noIndexed: true,
     },
   },
 };

@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.20.2"
+  },
   "scripts": {
     "start:dev": "turbo start:dev --filter fields",
+    "start:relationships": "turbo start:dev --filter relationships",
+    "start:pj_01": "turbo start:dev --filter pj_01",
     "build": "turbo build",
     "format": "prettier --write \"./apps/**/*.{ts,tsx,md,js}\""
   },

@@ -1,0 +1,25 @@
+version: "3.9"
+name: build
+services:
+  mongo:
+    image: mongo:5.0.26
+    container_name: mongo
+    volumes:
+      - ./.data/mongo:/data/db
+    networks:
+      - backend
+    ports:
+      - 27017:27017
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 2g
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    restart: always
+networks:
+  backend:

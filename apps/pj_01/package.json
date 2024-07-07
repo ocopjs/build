@@ -1,0 +1,16 @@
+{
+  "name": "pj_01",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ocop dev --entry=src"
+  },
+  "dependencies": {
+    "@ocopjs/adapter-mongoose": "*",
+    "@ocopjs/app-graphql": "*",
+    "@ocopjs/fields": "*",
+    "@ocopjs/fields-relationship": "*",
+    "@ocopjs/ocop": "*"
+  }
+}
