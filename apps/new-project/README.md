@@ -2,6 +2,8 @@
 
 Bài này sẽ hướng dẫn các bạn cách khởi tạo thủ công dự án OcopJS.
 
+[Xem chi tiết](https://docs.ocopee.com/docs/ocopjs/tutorials/new-project)
+
 ## Chuẩn bị về cơ sở dữ liệu
 
 Trước khi khởi chạy dự án OcopJS bạn cần phải có cơ sở dữ liệu trước. Bài này
