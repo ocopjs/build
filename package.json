@@ -4,20 +4,21 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "16.20.2"
+    "node": "20"
   },
   "scripts": {
     "start:dev": "turbo start:dev --filter fields",
+    "start:new-project": "turbo start:dev --filter new-project",
     "start:relationships": "turbo start:dev --filter relationships",
+    "start:user": "turbo start:dev --filter user",
     "start:pj_01": "turbo start:dev --filter pj_01",
-    "build": "turbo build",
-    "format": "prettier --write \"./apps/**/*.{ts,tsx,md,js}\""
+    "format": "prettier --write \"./apps\""
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "workspaces": [
-    "packages/*",
-    "apps/*"
-  ]
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.4"
+  },
+  "packageManager": "pnpm@10.11.0"
 }
