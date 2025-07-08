@@ -4,12 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:dev": "ocop dev"
+    "start:dev": "ocop dev -p 3001"
   },
   "dependencies": {
-    "@ocopjs/adapter-mongoose": "^1.0.2",
-    "@ocopjs/app-graphql": "^1.0.1",
-    "@ocopjs/fields": "^1.0.6",
-    "@ocopjs/ocop": "^1.0.2"
+    "@ocopjs/adapter-mongoose": "^1.0.12",
+    "@ocopjs/app-graphql": "^1.0.3",
+    "@ocopjs/fields": "^1.0.12",
+    "@ocopjs/ocop": "^1.0.5"
   }
 }

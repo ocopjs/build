@@ -1,16 +1,15 @@
 {
-  "name": "fields",
+  "name": "dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "start:dev": "ocop dev --entry=src"
+    "start:dev": "ocop dev -p 3001"
   },
-  "license": "ISC",
   "dependencies": {
     "@ocopjs/adapter-mongoose": "workspace:*",
     "@ocopjs/app-graphql": "workspace:*",
-    "@ocopjs/common": "workspace:*",
     "@ocopjs/fields": "workspace:*",
-    "@ocopjs/fields-mongoid": "workspace:*",
-    "@ocopjs/file-adapters": "workspace:*",
     "@ocopjs/ocop": "workspace:*"
   }
 }

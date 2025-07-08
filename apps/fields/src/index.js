@@ -20,7 +20,7 @@ const {
 const { MongoId } = require("@ocopjs/fields-mongoid");
 
 const ocop = new Ocop({
-  adapter: new MongooseAdapter({ mongoUri: "mongodb://localhost/ocop" }),
+  adapter: new MongooseAdapter({ mongoUri: "mongodb://127.0.0.1:27017/test" }),
 });
 
 ocop.createList("Field", {

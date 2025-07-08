@@ -7,18 +7,24 @@
     "node": "20"
   },
   "scripts": {
-    "start:dev": "turbo start:dev --filter fields",
-    "start:new-project": "turbo start:dev --filter new-project",
-    "start:relationships": "turbo start:dev --filter relationships",
-    "start:user": "turbo start:dev --filter user",
-    "start:pj_01": "turbo start:dev --filter pj_01",
-    "format": "prettier --write \"./apps\""
+    "start:dev": "turbo start:dev --filter dev",
+    "format": "prettier --write \"./apps\"",
+    "test": "jest --runTestsByPath ./tests/*"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@swc/core": "^1.12.9",
+    "@swc/jest": "^0.2.38",
+    "@types/jest": "^29.5.14",
+    "jest": "^30.0.4",
     "prettier": "^3.6.2",
     "turbo": "^2.5.4"
   },
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "@apollo/client": "^3.13.8",
+    "graphql": "^16.11.0",
+    "mongoose": "^8.16.1"
+  }
 }
